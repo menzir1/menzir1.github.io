@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Quiz Game - Graphic Version</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div id="title_section">
+ <p id="title">work simulator <p>       
+</div>
+<div id="title_image">
+ <img src="https://sc02.alicdn.com/kf/HTB11OguKpXXXXXAXFXXq6xXFXXXY/Yutong-bus-10m-ZK6107HA-large-buses-price.jpg">
+</div>
+<button id="play_button" onclick="gamestart()"> PLAY </button>
+<div>
+  <p id="main">Its 6:00am and its time for work, you get ready and leave the<br> house and you have a choice for taking the bus or the train? </p>
+  <p id="busq1" class="moreQuestions">You get to the bus stop and you see two buses a green one and a yellow one, which one will you take?
+  </p>
+  <p id="busq2" class="moreQuestions">The driver turns on to a road with loads of traffic and the driver is <br>offering people if they want to walk instead, Will you walk or stay on the bus?</p>
+  <p id="busq3" class="moreQuestions">You get to work about a minute late and your boss is shouting and screaming at you and he also docks your wages for a month, <br>you get this urge to punch him, do you punch him or try to pull back?</p>
+  <p id="busq4" class="moreQuestions"> You finish work and its time to go home, What do you take? bus or train?</p>
+</div>
+
+<div id="mainAnswer">
+  <img id="ans1_1" class="answers" onclick="answerTrain2()" src="http://vegasxtrain.com/wp-content/themes/xtrain/images/train-large.png">
+  <img id="ans1_2" class="answers" onclick="answerBus()" src="https://doubledeckerpdx.com/wp-content/uploads/2015/10/DoubleDeckerBus.png">
+</div>
+
+<div id="busq1A" class="moreQuestions">
+  <img id="ans2_1" class="answers" onclick="answerBus1()" src="https://upload.wikimedia.org/wikipedia/commons/0/0f/Go_North_East_bus_3900_Volvo_Olympian_Northern_Counties_Palatine_I_no_grille_R549_LGH_Yellow_Bus_livery_in_Gateshead_5_May_2009.JPG">
+  <img id="ans2_2" class="answers" onclick="wrongAnswer2()" src="http://3.bp.blogspot.com/-5rcPKU_HDe0/VipK6TKBzWI/AAAAAAAANl0/QN9rKsI87U8/s1600/16-59938.jpg">
+</div>
+
+<div id="busq2A" class="moreQuestions">
+  <img id="ans3_1" class="answers" onclick="answerBus2()" src="http://i.cdn.travel.cnn.com/sites/default/files/styles/inline_image_624x416/public/2011/10/10/INLINE-Bus_Kowloon2.jpg?itok=zv0rmmJV">
+  <img id="ans3_2" class="answers" onclick="answerBus3()" src="http://beinspiredbypurpose.com/wp-content/uploads/2016/03/inspired-to-walk-.jpg">
+</div>
+
+<div id="busq3A" class="moreQuestions">
+  <img id="ans3_1" class="answers" onclick="wrongAnswer4()" src="https://thoughtcatalog.files.wordpress.com/2015/06/shutterstock_127499717.jpg">
+  <img id="ans3_2" class="answers" onclick="answerBus4()" src="http://3052pp2c52bk3nlmmdz7dwua.wpengine.netdna-cdn.com/wp-content/uploads/2014/02/yellingboss-640x450.jpg">
+</div>
+
+<div id="busq4A" class="moreQuestions">
+  <img id="ans4_1" class="answers" onclick="wrongAnswer4()" src="https://thoughtcatalog.files.wordpress.com/2015/06/shutterstock_127499717.jpg">
+  <img id="ans4_2" class="answers" onclick="answerBus4()" src="http://3052pp2c52bk3nlmmdz7dwua.wpengine.netdna-cdn.com/wp-content/uploads/2014/02/yellingboss-640x450.jpg">
+</div>
+  
+    <script src="js/index.js"></script>
+
+</body>
+</html>
